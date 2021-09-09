@@ -6,11 +6,11 @@ Your instructor should have communicated which method to use for this project du
 
 ## Task 2: Project Minimum Viable Product
 
-### Database
+### Database - DONE
 
 Open `data/schemes.db3` using a graphical tool like SQLite Studio and study the data inside the `schemes` and `steps` tables. The data can be reset at any time by executing `npm run seed`.
 
-### API
+### API - DONE
 
 Open `api/schemes/scheme-router.js` and study the specification for each endpoint. You do not need to make any changes to this file.
 
@@ -24,9 +24,9 @@ Open `api/schemes/scheme-router.js` and study the specification for each endpoin
 
 Write middleware functions in `api/schemes/scheme-middleware.js` following the instructions inside that file:
 
-- [ ] `checkSchemeId`
-- [ ] `validateScheme`
-- [ ] `validateStep`
+- [x] `checkSchemeId`
+- [x] `validateScheme`
+- [x] `validateStep`
 
 ### Database Functions
 
